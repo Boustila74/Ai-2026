@@ -57,6 +57,9 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .ai-footer{padding:10px;border-top:1px solid var(--line);display:flex;gap:5px}
 .ai-footer input{flex:1;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
 .ai-footer button{background:var(--blue);color:#fff;border:none;padding:10px 15px;border-radius:8px;cursor:pointer}
+.socials{display:flex;gap:15px;flex-wrap:wrap;margin-top:20px}
+.socials a{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-weight:600;padding:10px 15px;border:1px solid var(--line);border-radius:10px;background:var(--card);transition:background 0.3s}
+.socials a:hover{background:var(--line)}
 </style>
 </head>
 <body>
@@ -155,6 +158,14 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
         <button type="button" class="btn" onclick="sendWhatsApp()" data-i18n="fw">إرسال عبر واتساب</button>
       </div>
     </form>
+
+    <!-- الروابط الاجتماعية -->
+    <div class="socials" data-aos="fade-up" data-aos-delay="100">
+      <a href="https://facebook.com/YOUR_FACEBOOK_LINK" target="_blank">📘 Facebook</a>
+      <a href="https://instagram.com/YOUR_INSTAGRAM_LINK" target="_blank">📸 Instagram</a>
+      <a href="https://tiktok.com/@YOUR_TIKTOK_LINK" target="_blank">🎵 TikTok</a>
+      <a href="mailto:boustilasaid7@gmail.com">✉️ Email</a>
+    </div>
   </section>
 </main>
 
